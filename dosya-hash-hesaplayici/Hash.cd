@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HashHesaplayici.Islem.Hash">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Islem\Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HashHesaplayici.Islem.Sha1">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Islem\Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HashHesaplayici.Islem.Md5">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Islem\Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9.13" />
+</ClassDiagram>
