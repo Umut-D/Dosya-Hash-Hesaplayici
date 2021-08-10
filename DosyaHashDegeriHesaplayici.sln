@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashLibrary", "HashLibrary\HashLibrary.csproj", "{C765A7D9-F06A-466F-9284-1E55723CA937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashUI", "DosyaHashHesaplayici\HashUI.csproj", "{2A5E8C06-F11A-4BB8-B163-45DFC28BC832}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashUI", "HashUI\HashUI.csproj", "{2A5E8C06-F11A-4BB8-B163-45DFC28BC832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
