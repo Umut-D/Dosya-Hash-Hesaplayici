@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace HashHesaplayici.Islem
+namespace HashLibrary
 {
-    public sealed class Md5 : Hash
+    public sealed class Sha1 : Hash
     {
-        public Md5(string dosyaAdi) : base(dosyaAdi)
+        public Sha1(string dosyaAdi) : base(dosyaAdi)
         {
         }
 
         public override void Hesapla()
         {
-            HashHesapla = MD5.Create().ComputeHash(DosyaOku);
+            HashHesapla = SHA1.Create().ComputeHash(DosyaOku);
             Sonuc = BitConverter.ToString(HashHesapla);
         }
     }

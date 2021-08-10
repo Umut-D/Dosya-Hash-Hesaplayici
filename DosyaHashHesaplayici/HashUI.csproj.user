@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PublishUrlHistory>yayımlayın\</PublishUrlHistory>
     <InstallUrlHistory />
-    <SupportUrlHistory>http://www.umutd.com</SupportUrlHistory>
+    <SupportUrlHistory>https://umutd.com|http://www.umutd.com</SupportUrlHistory>
     <UpdateUrlHistory />
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />

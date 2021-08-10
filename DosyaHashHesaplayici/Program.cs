@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace HashHesaplayici
+namespace HashUI
 {
     static class Program
     {

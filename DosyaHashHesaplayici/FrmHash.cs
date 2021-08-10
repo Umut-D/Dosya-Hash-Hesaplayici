@@ -5,19 +5,21 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
-using HashHesaplayici.Islem;
+using HashLibrary;
 
-namespace HashHesaplayici
+namespace HashUI
 {
     public partial class FrmHash : Form
     {
         public FrmHash()
         {
             InitializeComponent();
+            CheckForIllegalCrossThreadCalls = false;
         }
 
         private void BtnDosyaAc_Click(object sender, EventArgs e)
         {
+            TextBoxDegerleriniSil();
             KarsilastirmaDegeriniSil();
             TextBoxRenkleriniSifirla();
 
@@ -36,6 +38,12 @@ namespace HashHesaplayici
                 MessageBox.Show(@"Açmak istediğiniz dosyada sorun olabileceği gibi, dosya kullanımda da olabilir.",
                     @"Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void TextBoxDegerleriniSil()
+        {
+            txtMd5.Text = string.Empty;
+            txtSha1.Text = string.Empty;
         }
 
         private void KarsilastirmaDegeriniSil()
@@ -97,6 +105,7 @@ namespace HashHesaplayici
 
         private void LblDosyaAc_DragDrop(object sender, DragEventArgs e)
         {
+            TextBoxDegerleriniSil();
             KarsilastirmaDegeriniSil();
             TextBoxRenkleriniSifirla();
 

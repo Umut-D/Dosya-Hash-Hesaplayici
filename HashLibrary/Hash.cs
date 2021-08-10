@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace HashHesaplayici.Islem
+namespace HashLibrary
 {
     public abstract class Hash
     {

@@ -1,4 +1,4 @@
-﻿namespace HashHesaplayici
+﻿namespace HashUI
 {
     partial class FrmHash
     {

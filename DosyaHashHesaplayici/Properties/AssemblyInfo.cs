@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Derleme hakkında Genel Bilgiler aşağıdakilerle denetlenir. 
 // kontrol edilir. Derlemeyle ilişkilendirilen bilgiyi değiştirmek için
 // bu öznitelik değerlerini değiştirin.
-[assembly: AssemblyTitle("Dosya Hash Hesaplayici")]
+[assembly: AssemblyTitle("Dosya Hash Değeri Hesaplayıcı")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Umut D.")]
-[assembly: AssemblyProduct("Dosya Hash Hesaplayici")]
+[assembly: AssemblyProduct("Dosya Hash Değeri Hesaplayıcı")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // Bütün değerleri belirtebilir ya da Yapı ve Düzeltme Numaralarını varsayılan olarak seçebilirsiniz 
 // Yapı Numaralarını varsayılan yapabilirsiniz:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.2.0")]
-[assembly: AssemblyFileVersion("1.1.2.0")]
+[assembly: AssemblyVersion("1.1.3.0")]
+[assembly: AssemblyFileVersion("1.1.3.0")]
