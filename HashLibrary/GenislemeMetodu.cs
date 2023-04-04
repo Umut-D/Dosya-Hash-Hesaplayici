@@ -2,9 +2,9 @@
 {
     public static class GenislemeMetodu
     {
-        public static string TiresizVeKucukHarfliYaz(this string yazi)
+        public static string TiresizYaz(this string yazi)
         {
-            return yazi.Replace("-","").ToLower();
+            return yazi.Replace("-","");
         }
     }
 }

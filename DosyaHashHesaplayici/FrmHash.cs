@@ -40,7 +40,7 @@ namespace HashUI
         private void TboxDegerleriniSil()
         {
             txtMd5.Text = string.Empty;
-            txtSha256.Text = string.Empty;
+            txtSha1.Text = string.Empty;
             txtKarsilastir.Text = string.Empty;
         }
 
@@ -54,7 +54,7 @@ namespace HashUI
         {
             return new List<TextBox>
             {
-                txtMd5, txtSha1, txtSha256
+                txtMd5, txtSha1
             };
         }
 
@@ -78,7 +78,6 @@ namespace HashUI
         {
             txtMd5.Text = await Task.Run(() => HashBul(new Md5(), dosya));
             txtSha1.Text = await Task.Run(() => HashBul(new Sha1(), dosya));
-            txtSha256.Text = await Task.Run(() => HashBul(new Sha256(), dosya));
         }
 
         private string HashBul(IHashable hash, Dosya dosya)
