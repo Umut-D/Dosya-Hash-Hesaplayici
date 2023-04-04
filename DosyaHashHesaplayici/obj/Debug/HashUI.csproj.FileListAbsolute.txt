@@ -1,0 +1,28 @@
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\Dosya Hash Değeri Hesaplayıcı.exe.config
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\Dosya Hash Değeri Hesaplayıcı.exe
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\Dosya Hash Değeri Hesaplayıcı.pdb
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\HashLibrary.dll
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\HashLibrary.pdb
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.AssemblyReference.cache
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.FrmHash.resources
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.Properties.Resources.resources
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.GenerateResource.cache
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.CoreCompileInputs.cache
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.CopyComplete
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\Dosya Hash Değeri Hesaplayıcı.exe
+D:\Downloads\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\Dosya Hash Değeri Hesaplayıcı.pdb
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\Dosya Hash Değeri Hesaplayıcı.exe.config
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\Dosya Hash Değeri Hesaplayıcı.exe
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\Dosya Hash Değeri Hesaplayıcı.pdb
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\HashLibrary.dll
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\bin\Debug\HashLibrary.pdb
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.AssemblyReference.cache
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.SuggestedBindingRedirects.cache
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.FrmHash.resources
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.Properties.Resources.resources
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.GenerateResource.cache
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.CoreCompileInputs.cache
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\HashUI.csproj.CopyComplete
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\Dosya Hash Değeri Hesaplayıcı.exe
+D:\Belgelerim\Programlarım\C#\+ Github\DosyaHashDegeriHesaplayici\DosyaHashHesaplayici\obj\Debug\Dosya Hash Değeri Hesaplayıcı.pdb

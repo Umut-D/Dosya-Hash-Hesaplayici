@@ -34,14 +34,15 @@
             this.lblDosyaAc = new System.Windows.Forms.Label();
             this.lblDosyaAdi = new System.Windows.Forms.Label();
             this.txtDosyaAdi = new System.Windows.Forms.TextBox();
-            this.lblSha1 = new System.Windows.Forms.Label();
+            this.lblSha256 = new System.Windows.Forms.Label();
             this.lblMd5 = new System.Windows.Forms.Label();
             this.txtMd5 = new System.Windows.Forms.TextBox();
-            this.txtSha1 = new System.Windows.Forms.TextBox();
-            this.btnKontrolEt = new System.Windows.Forms.Button();
+            this.txtSha256 = new System.Windows.Forms.TextBox();
             this.txtKarsilastir = new System.Windows.Forms.TextBox();
             this.lblKarsilastir = new System.Windows.Forms.Label();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.lblSha1 = new System.Windows.Forms.Label();
+            this.txtSha1 = new System.Windows.Forms.TextBox();
             this.gbDosyaAc.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             this.gbDosyaAc.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.gbDosyaAc.Location = new System.Drawing.Point(13, 10);
             this.gbDosyaAc.Name = "gbDosyaAc";
-            this.gbDosyaAc.Size = new System.Drawing.Size(486, 104);
+            this.gbDosyaAc.Size = new System.Drawing.Size(554, 104);
             this.gbDosyaAc.TabIndex = 0;
             this.gbDosyaAc.TabStop = false;
             this.gbDosyaAc.Text = "Dosya Aç";
@@ -60,7 +61,7 @@
             // btnDosyaAc
             // 
             this.btnDosyaAc.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnDosyaAc.Location = new System.Drawing.Point(348, 46);
+            this.btnDosyaAc.Location = new System.Drawing.Point(389, 46);
             this.btnDosyaAc.Name = "btnDosyaAc";
             this.btnDosyaAc.Size = new System.Drawing.Size(75, 23);
             this.btnDosyaAc.TabIndex = 1;
@@ -73,10 +74,10 @@
             this.lblDosyaAc.AllowDrop = true;
             this.lblDosyaAc.Location = new System.Drawing.Point(7, 18);
             this.lblDosyaAc.Name = "lblDosyaAc";
-            this.lblDosyaAc.Size = new System.Drawing.Size(469, 78);
+            this.lblDosyaAc.Size = new System.Drawing.Size(541, 78);
             this.lblDosyaAc.TabIndex = 0;
-            this.lblDosyaAc.Text = "                  Dosyanızı bu alanın üzerine sürükleyip bırakın -veya-  ";
-            this.lblDosyaAc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblDosyaAc.Text = "Dosyanızı bu alanın üzerine sürükleyip bırakın -veya-                        ";
+            this.lblDosyaAc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblDosyaAc.DragDrop += new System.Windows.Forms.DragEventHandler(this.LblDosyaAc_DragDrop);
             this.lblDosyaAc.DragEnter += new System.Windows.Forms.DragEventHandler(this.LblDosyaAc_DragEnter);
             // 
@@ -84,7 +85,7 @@
             // 
             this.lblDosyaAdi.AutoSize = true;
             this.lblDosyaAdi.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblDosyaAdi.Location = new System.Drawing.Point(22, 132);
+            this.lblDosyaAdi.Location = new System.Drawing.Point(28, 132);
             this.lblDosyaAdi.Name = "lblDosyaAdi";
             this.lblDosyaAdi.Size = new System.Drawing.Size(64, 15);
             this.lblDosyaAdi.TabIndex = 1;
@@ -93,27 +94,27 @@
             // txtDosyaAdi
             // 
             this.txtDosyaAdi.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtDosyaAdi.Location = new System.Drawing.Point(92, 129);
+            this.txtDosyaAdi.Location = new System.Drawing.Point(93, 129);
             this.txtDosyaAdi.Name = "txtDosyaAdi";
             this.txtDosyaAdi.ReadOnly = true;
-            this.txtDosyaAdi.Size = new System.Drawing.Size(317, 23);
+            this.txtDosyaAdi.Size = new System.Drawing.Size(455, 23);
             this.txtDosyaAdi.TabIndex = 2;
             // 
-            // lblSha1
+            // lblSha256
             // 
-            this.lblSha1.AutoSize = true;
-            this.lblSha1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSha1.Location = new System.Drawing.Point(42, 189);
-            this.lblSha1.Name = "lblSha1";
-            this.lblSha1.Size = new System.Drawing.Size(44, 15);
-            this.lblSha1.TabIndex = 3;
-            this.lblSha1.Text = "SHA-1:";
+            this.lblSha256.AutoSize = true;
+            this.lblSha256.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSha256.Location = new System.Drawing.Point(34, 218);
+            this.lblSha256.Name = "lblSha256";
+            this.lblSha256.Size = new System.Drawing.Size(58, 15);
+            this.lblSha256.TabIndex = 3;
+            this.lblSha256.Text = "SHA-256:";
             // 
             // lblMd5
             // 
             this.lblMd5.AutoSize = true;
             this.lblMd5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMd5.Location = new System.Drawing.Point(49, 160);
+            this.lblMd5.Location = new System.Drawing.Point(55, 160);
             this.lblMd5.Name = "lblMd5";
             this.lblMd5.Size = new System.Drawing.Size(37, 15);
             this.lblMd5.TabIndex = 5;
@@ -122,39 +123,28 @@
             // txtMd5
             // 
             this.txtMd5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMd5.Location = new System.Drawing.Point(92, 157);
+            this.txtMd5.Location = new System.Drawing.Point(93, 157);
             this.txtMd5.Name = "txtMd5";
             this.txtMd5.ReadOnly = true;
-            this.txtMd5.Size = new System.Drawing.Size(317, 23);
+            this.txtMd5.Size = new System.Drawing.Size(455, 23);
             this.txtMd5.TabIndex = 7;
             // 
-            // txtSha1
+            // txtSha256
             // 
-            this.txtSha1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtSha1.Location = new System.Drawing.Point(92, 186);
-            this.txtSha1.Name = "txtSha1";
-            this.txtSha1.ReadOnly = true;
-            this.txtSha1.Size = new System.Drawing.Size(317, 23);
-            this.txtSha1.TabIndex = 8;
-            // 
-            // btnKontrolEt
-            // 
-            this.btnKontrolEt.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKontrolEt.Location = new System.Drawing.Point(419, 157);
-            this.btnKontrolEt.Name = "btnKontrolEt";
-            this.btnKontrolEt.Size = new System.Drawing.Size(70, 81);
-            this.btnKontrolEt.TabIndex = 9;
-            this.btnKontrolEt.Text = "Kontrol Et";
-            this.btnKontrolEt.UseVisualStyleBackColor = true;
-            this.btnKontrolEt.Click += new System.EventHandler(this.BtnKontrolEt_Click);
+            this.txtSha256.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtSha256.Location = new System.Drawing.Point(93, 215);
+            this.txtSha256.Name = "txtSha256";
+            this.txtSha256.ReadOnly = true;
+            this.txtSha256.Size = new System.Drawing.Size(455, 23);
+            this.txtSha256.TabIndex = 8;
             // 
             // txtKarsilastir
             // 
-            this.txtKarsilastir.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtKarsilastir.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.txtKarsilastir.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtKarsilastir.Location = new System.Drawing.Point(92, 215);
+            this.txtKarsilastir.Location = new System.Drawing.Point(93, 244);
             this.txtKarsilastir.Name = "txtKarsilastir";
-            this.txtKarsilastir.Size = new System.Drawing.Size(317, 23);
+            this.txtKarsilastir.Size = new System.Drawing.Size(455, 23);
             this.txtKarsilastir.TabIndex = 10;
             this.txtKarsilastir.TextChanged += new System.EventHandler(this.TxtKarsilastir_TextChanged);
             this.txtKarsilastir.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtKarsilastir_KeyDown);
@@ -163,7 +153,7 @@
             // 
             this.lblKarsilastir.AutoSize = true;
             this.lblKarsilastir.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblKarsilastir.Location = new System.Drawing.Point(24, 218);
+            this.lblKarsilastir.Location = new System.Drawing.Point(25, 247);
             this.lblKarsilastir.Name = "lblKarsilastir";
             this.lblKarsilastir.Size = new System.Drawing.Size(62, 15);
             this.lblKarsilastir.TabIndex = 11;
@@ -176,18 +166,38 @@
             this.openFileDialog.RestoreDirectory = true;
             this.openFileDialog.Title = "Dosya Aç";
             // 
+            // lblSha1
+            // 
+            this.lblSha1.AutoSize = true;
+            this.lblSha1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSha1.Location = new System.Drawing.Point(48, 189);
+            this.lblSha1.Name = "lblSha1";
+            this.lblSha1.Size = new System.Drawing.Size(44, 15);
+            this.lblSha1.TabIndex = 5;
+            this.lblSha1.Text = "SHA-1:";
+            // 
+            // txtSha1
+            // 
+            this.txtSha1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtSha1.Location = new System.Drawing.Point(93, 186);
+            this.txtSha1.Name = "txtSha1";
+            this.txtSha1.ReadOnly = true;
+            this.txtSha1.Size = new System.Drawing.Size(455, 23);
+            this.txtSha1.TabIndex = 7;
+            // 
             // FrmHash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 253);
+            this.ClientSize = new System.Drawing.Size(580, 278);
             this.Controls.Add(this.lblKarsilastir);
             this.Controls.Add(this.txtKarsilastir);
-            this.Controls.Add(this.btnKontrolEt);
+            this.Controls.Add(this.txtSha256);
             this.Controls.Add(this.txtSha1);
+            this.Controls.Add(this.lblSha1);
             this.Controls.Add(this.txtMd5);
             this.Controls.Add(this.lblMd5);
-            this.Controls.Add(this.lblSha1);
+            this.Controls.Add(this.lblSha256);
             this.Controls.Add(this.txtDosyaAdi);
             this.Controls.Add(this.lblDosyaAdi);
             this.Controls.Add(this.gbDosyaAc);
@@ -211,13 +221,14 @@
         private System.Windows.Forms.Label lblDosyaAc;
         private System.Windows.Forms.Label lblDosyaAdi;
         private System.Windows.Forms.TextBox txtDosyaAdi;
-        private System.Windows.Forms.Label lblSha1;
+        private System.Windows.Forms.Label lblSha256;
         private System.Windows.Forms.Label lblMd5;
         public System.Windows.Forms.TextBox txtMd5;
-        public System.Windows.Forms.TextBox txtSha1;
+        public System.Windows.Forms.TextBox txtSha256;
         public System.Windows.Forms.TextBox txtKarsilastir;
-        public System.Windows.Forms.Button btnKontrolEt;
         private System.Windows.Forms.Label lblKarsilastir;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.Label lblSha1;
+        public System.Windows.Forms.TextBox txtSha1;
     }
 }
