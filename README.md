@@ -9,5 +9,4 @@ Dosyaların MD5 ve SHA-1 değerlerini gösteren ve aranan hash değeriyle karş�
 * Dosyaları ilgili alanın üzerine sürükleyerek bırakarak açma,
 * MD5 değerini bulma,
 * SHA-1 değerini bulma,
-* SHA-256 değerini bulma,
 * Dosya hash eşleştirmesi yapabilme.
